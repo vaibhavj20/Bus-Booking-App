@@ -1,4 +1,4 @@
-Web application designed to manage bus bookings. This application offers users a platform to reserve bus seats conveniently. Users can input their personal details such as name, email, and phone number, along with selecting their preferred bus type from a list.
+Web application designed to manage bus bookings. This application offers users a platform to reserve buses conveniently. Users can input their personal details such as name, email, and phone number, along with selecting their preferred bus type from a list.
 
 Once users submit their booking information through the provided form, the application dynamically adds their details to a list displayed on the webpage. Each entry in the list comprehensively includes the user's name, email, phone number, and the type of bus they have booked.
 
