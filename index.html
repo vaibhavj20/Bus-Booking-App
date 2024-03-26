@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Your Bus</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Bus Booking</h1>
+        <form class="form">
+            <input type="text" id="username" placeholder="Your Name">
+            <br>
+            <input type="email" id="email" placeholder="Your Email">
+            <br>
+            <input type="text" id="phone" placeholder="Your Number">
+            <br>
+            <select id="select-bus" placeholder="Select Bus">
+                <option value="Select Bus" disabled selected>Select Bus</option>
+                <option value="Bus 1">Bus 1</option>
+                <option value="Bus 2">Bus 2</option>
+                <option value="Bus 3">Bus 3</option>
+            </select>
+            <br>
+            <button type="button" id="book-bus">Book Bus</button>
+        </form>
+    </div>
+    <hr>
+    
+    <h2 class="bookings">Bookings</h2>
+    <div class="Booked">
+        <ul class="Booked-list">
+        </ul>
+    </div>
+    
+    <div id="filterContainer">
+        <h2>Filter By Bus</h2>
+        <select id="filterBus">
+            <option value="all">All</option>
+            <option value="Bus 1">Bus 1</option>
+            <option value="Bus 2">Bus 2</option>
+            <option value="Bus 3">Bus 3</option>
+        </select>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
